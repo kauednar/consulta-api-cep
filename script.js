@@ -2,7 +2,6 @@ async function consultaCep() {
     const cep = document.getElementById('cepInput').value;
     const resultDiv = document.getElementById('result');
 
-    // Limpa o resultado anterior
     resultDiv.innerHTML = '';
 
     // Validação do CEP
