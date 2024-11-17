@@ -13,7 +13,6 @@ body {
     background-color: #f4f4f9; 
 }
 
-/* Card estilizado */
 .card {
     background: #fff;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); 
@@ -21,19 +20,15 @@ body {
     padding: 20px;
     width: 100%;
     max-width: 400px; 
-    text-align: center;
 }
 
-/* Título */
 .card h1 {
-    font-size: 24px;
     color: #333;
     margin-bottom: 20px;
 }
 
-/* Estilo do input */
 .card input {
-    width: calc(100% - 20px);
+    width: 100%;
     padding: 10px;
     font-size: 16px;
     border: 1px solid #ccc;
@@ -48,6 +43,7 @@ body {
 }
 
 .card button {
+    width: 100%;
     background-color: #007BFF;
     color: white;
     padding: 10px 20px;
@@ -59,10 +55,9 @@ body {
 }
 
 .card button:hover {
-    background-color: #0056b3; /* Azul mais escuro ao passar o mouse */
+    background-color: #0056b3;
 }
 
-/* Resultado */
 #result {
     margin-top: 20px;
     font-size: 16px;
