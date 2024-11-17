@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; 
+    background-color: #f4f4f9; 
+}
+
+/* Card estilizado */
+.card {
+    background: #fff;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); 
+    border-radius: 8px; 
+    padding: 20px;
+    width: 100%;
+    max-width: 400px; 
+    text-align: center;
+}
+
+/* Título */
+.card h1 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Estilo do input */
+.card input {
+    width: calc(100% - 20px);
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 15px;
+    transition: border-color 0.3s ease;
+}
+
+.card input:focus {
+    border-color: #007BFF;
+    outline: none;
+}
+
+.card button {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.card button:hover {
+    background-color: #0056b3; /* Azul mais escuro ao passar o mouse */
+}
+
+/* Resultado */
+#result {
+    margin-top: 20px;
+    font-size: 16px;
+    color: #333;
+    text-align: left;
+}
+
+.error {
+    color: #ff0000;
+}
+
+.data-item {
+    margin-bottom: 8px;
+}
